@@ -1,8 +1,8 @@
 import sumar from "./sumador";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
+const titulo = document.querySelector("#titulo_");
+const detalle = document.querySelector("#detalle_");
+const form = document.querySelector("#UCB-Twiter");
 const div = document.querySelector("#resultado-div");
 
 form.addEventListener("submit", (event) => {
@@ -11,5 +11,5 @@ form.addEventListener("submit", (event) => {
   const firstNumber = Number.parseInt(first.value);
   const secondNumber = Number.parseInt(second.value);
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+  div.innerHTML = "<p>" +  + "</p>";
 });
